@@ -15,7 +15,8 @@
 
             <div class="flex flex-col items-center pb-10">
 
-                <img src="https://source.unsplash.com/500x500?face-{{$key}}" alt="image" class="w-24 h-24 mb-2 5 rounded-full shadow-lg">
+                {{-- <img src="https://source.unsplash.com/500x500?face-{{$key}}" alt="image" class="w-24 h-24 mb-2 5 rounded-full shadow-lg"> --}}
+                @include('components.avatar')
 
                 <h5 class="mb-1 text-xl font-medium text-gray-900 " >
                     {{$user->name}}
